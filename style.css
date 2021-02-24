@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(23, 23, 36) !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.calc-item{
+    background-color: aqua;
+    padding: 10px;
+    border: 1px solid rgb(23, 23, 36);
+    font-size: 30px;
+    cursor: pointer;
+}
+.custom-color{
+    background-color: rgb(255, 83, 140);
+}
+#screen{
+    border: 1px solid rgb(23, 23, 36);
+    outline: none;
+    font-size: 20px;
+    text-align: right;
+}
